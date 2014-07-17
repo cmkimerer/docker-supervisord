@@ -1,4 +1,11 @@
 =================
+Version 1.1.0
+=================
+2014/7/17
+  - Changes the config file to replace the default path /etc/supervisor/supervisord.conf
+  - Adds in the ability to use supervisorctl to control running processes
+
+=================
 Version 1.0.0
 =================
 2014/7/16
