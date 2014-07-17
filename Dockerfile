@@ -7,6 +7,6 @@ RUN apt-get -y install supervisor
 RUN mkdir -p /var/log/supervisor
 RUN mkdir -p /etc/supervisor/conf.d/
 
-ADD supervisor.conf /etc/
+ADD supervisord.conf /etc/supervisor/
 
-CMD ["supervisord", "-c", "/etc/supervisor.conf"]
+CMD ["supervisord"]
